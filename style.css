@@ -1,0 +1,14 @@
+body {
+}
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 80px;
+}
+.news-article {
+  border-bottom: 1.5px solid black;
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

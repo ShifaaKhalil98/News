@@ -1,14 +1,3 @@
-// $(document).ready(function () {
-//   $.getJSON("display_news.php", function (data) {
-//     $.each(data, function (i, item) {
-//       var news = "<h2>" + item.category + "</h2>";
-//       news += "<h2>" + item.title + "</h2>";
-//       news += "<p>" + item.subtitle + "</p>";
-//       $("#news").append(news);
-//     });
-//   });
-// });
-
 $(document).ready(function () {
   $.ajax({
     url: "display_news.php",
